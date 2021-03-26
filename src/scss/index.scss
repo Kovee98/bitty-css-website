@@ -1,0 +1,16 @@
+#app {
+    margin: 0
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+
+    & > * {
+        margin: 0 1rem;
+    }
+}
+
+.whiteify {
+    filter: brightness(0) invert(1);
+}
